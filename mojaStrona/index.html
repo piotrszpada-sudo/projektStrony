@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta name="author" content="Piotr Szpada">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Strona o mnie</title>
+    <link rel="stylesheet" href="style-base.css">
+    <link rel="stylesheet" href="style-layout.css">
+  </head>
+  <body>
+    <div class="container">
+      <header class="site-header">
+        <nav class="main-nav">
+          <a href="index.html" class="nav-link">Strona główna</a>
+          <a href="about/index.html" class="nav-link">O mnie</a>
+          <a href="passions/index.html" class="nav-link">Pasje</a>
+          <a href="relations/index.html" class="nav-link">Społeczeństwo</a>
+          <a href="future/index.html" class="nav-link">Plan na przyszłość</a>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero">
+          <div class="hero-content">
+            <h1>Witam na stronie o mnie</h1>
+            <p>Nazywam się Piotr Szpada. Jestem uczniem technikum informatycznego,
+               o bardzo wielu pasjach i zainteresowaniach. Przez tą stronę chcę pozwolić
+               poznać mnie lepiej.</p>
+          </div>
+          <div class="hero-image">
+            <img
+              class="photo1"
+              src="media/photo1.jpg"
+              alt="photo1"
+            />
+          </div>
+        </section>
+
+        <section class="features">
+          <div class="features-wrapper">
+            <div class="feature-card">
+              <div class="feature-icon">🚗</div>
+              <h3>Pytanie 1</h3>
+              <p>Jaka jest moja ulubiona marka samochodu?</p>
+              <ul class="quiz-options">
+                <li><button class="quiz-option" data-correct="false">Audi</button></li>
+                <li><button class="quiz-option" data-correct="true">BMW</button></li>
+                <li><button class="quiz-option" data-correct="false">Jaguar</button></li>
+              </ul>
+            </div>
+            <div class="feature-card">
+              <div class="feature-icon">🏙️</div>
+              <h3>Pytanie 2</h3>
+              <p>W jakim mieście się urodziłem?</p>
+              <ul class="quiz-options">
+                <li><button class="quiz-option" data-correct="true">Knurów</button></li>
+                <li><button class="quiz-option" data-correct="false">Glwice</button></li>
+                <li><button class="quiz-option" data-correct="false">Olsztyn</button></li>
+              </ul>
+            </div>
+            <div class="feature-card">
+              <div class="feature-icon">🕧</div>
+              <h3>Pytanie 3</h3>
+              <p>Gdzie najbardziej lubię spędzać wolny czas?</p>
+              <ul class="quiz-options">
+                <li><button class="quiz-option" data-correct="true">Na siłowni</button></li>
+                <li><button class="quiz-option" data-correct="false">W domu</button></li>
+                <li><button class="quiz-option" data-correct="false">W szkole</button></li>
+              </ul>
+            </div>
+            <div class="feature-card">
+              <div class="feature-icon">💬</div>
+              <h3>Pytanie 4</h3>
+              <p>W jakim języku najlepiej mi się rozmawia?</p>
+              <ul class="quiz-options">
+                <li><button class="quiz-option" data-correct="false">Polski</button></li>
+                <li><button class="quiz-option" data-correct="false">Hiszpański</button></li>
+                <li><button class="quiz-option" data-correct="true">Angielski</button></li>
+              </ul>
+            </div>
+            <div class="feature-card">
+              <div class="feature-icon">🎵</div>
+              <h3>Pytanie 5</h3>
+              <p>Kto jest moim ulubionym wykonawcą muzycznym?</p>
+              <ul class="quiz-options">
+                <li><button class="quiz-option" data-correct="true">A$AP Rocky</button></li>
+                <li><button class="quiz-option" data-correct="false">2Pac</button></li>
+                <li><button class="quiz-option" data-correct="false">Malik Montana</button></li>
+              </ul>
+            </div>
+            <div class="feature-card">
+              <div class="feature-icon">👟</div>
+              <h3>Pytanie 6</h3>
+              <p>Jaki sport najbardziej lubię oglądać</p>
+              <ul class="quiz-options">
+                <li><button class="quiz-option" data-correct="false">Piłka nożna</button></li>
+                <li><button class="quiz-option" data-correct="false">Hokej</button></li>
+                <li><button class="quiz-option" data-correct="true">Football Amerykański</button></li>
+              </ul>
+            </div>
+            <div class="feature-card">
+              <div class="feature-icon">🏋️‍♂️</div>
+              <h3>Pytanie 7</h3>
+              <p>Ile lat jestem aktywny fizycznie</p>
+              <ul class="quiz-options">
+                <li><button class="quiz-option" data-correct="false">7 lat</button></li>
+                <li><button class="quiz-option" data-correct="true">9 lat</button></li>
+                <li><button class="quiz-option" data-correct="false">3 lata</button></li>
+              </ul>
+            </div>
+            <div class="feature-card">
+              <div class="feature-icon">🗺</div>
+              <h3>Pytanie 8</h3>
+              <p>Który kraj chciałbym zwiedzić?</p>
+              <ul class="quiz-options">
+                <li><button class="quiz-option" data-correct="false">Salwador</button></li>
+                <li><button class="quiz-option" data-correct="true">Stany Zjednoczone</button></li>
+                <li><button class="quiz-option" data-correct="false">Kenia</button></li>
+              </ul>
+            </div>
+            <div class="feature-card">
+              <div class="feature-icon">🌇</div>
+              <h3>Pytanie 9</h3>
+              <p>Gdzie najbardziej lubie jeżdzić w okolicy?</p>
+              <ul class="quiz-options">
+                <li><button class="quiz-option" data-correct="false">Do Zabrza</button></li>
+                <li><button class="quiz-option" data-correct="false">Do Gliwic</button></li>
+                <li><button class="quiz-option" data-correct="true">Do Katowic</button></li>
+              </ul>
+            </div>
+            <div class="feature-card">
+              <div class="feature-icon">🍽</div>
+              <h3>Pytanie 10</h3>
+              <p>Ile posiłków jem dziennie podczas masy</p>
+              <ul class="quiz-options">
+                <li><button class="quiz-option" data-correct="true">5 posiłków + przekąski</button></li>
+                <li><button class="quiz-option" data-correct="false">3 posiłki + przekąski</button></li>
+                <li><button class="quiz-option" data-correct="false">2 posiłki + przekąski</button></li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="footer-section">
+          <h4>Informacje</h4>
+          <p><a href="about/index.html">O mnie</a></p>
+          <p><a href="index.html">Strona główna</a></p>
+          <p><a href="contact/index.html">Kontakt</a></p>
+          <p><a href="rules/index.html">Zasady Footballu Amerykańskiego</a></p>
+        </div>
+        <div class="footer-section">
+          <h4>Moje Social Media</h4>
+          <p><a href="https://www.facebook.com/piotrek.szpada">Facebook</a></p>
+          <p><a href="https://www.instagram.com/piotrek.szpada/">Instagram</a></p>
+        </div>
+        <div class="footer-copyright">
+          <p>&copy; Piotr Szpada, 3ti, 2026</p>
+        </div>
+      </footer>
+    </div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const quizCards = document.querySelectorAll(".feature-card");
+
+        quizCards.forEach((card) => {
+          const buttons = card.querySelectorAll(".quiz-option");
+
+          buttons.forEach((button) => {
+            button.addEventListener("click", () => {
+              const isCorrect = button.dataset.correct === "true";
+
+              if (isCorrect) {
+                button.classList.add("correct");
+              } else {
+                button.classList.add("incorrect");
+                const correctButton = card.querySelector(".quiz-option[data-correct='true']");
+                if (correctButton) {
+                  correctButton.classList.add("correct");
+                }
+              }
+              buttons.forEach((btn) => btn.disabled = true);
+            });
+          });
+        });
+      });
+    </script>
+  </body>
+</html>
